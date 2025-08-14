@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biswajit Rout - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero">Biswajit Rout</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#writeups" class="nav-link">Write-ups</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Biswajit Rout</span>
+                </h1>
+                <p class="hero-subtitle">Backend Developer & Cybersecurity Enthusiast</p>
+                <p class="hero-description">
+                    Passionate about building secure, scalable systems and exploring the depths of cybersecurity.
+                    Ready to contribute to innovative projects and grow with forward-thinking organizations.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#resume" class="btn btn-secondary">View Resume</a>
+                </div>
+                </div>
+
+                <!-- RIGHT SIDE: full length image + background shape + floating name -->
+                <div class="hero-image">
+                <div class="hero-placeholder">
+                    
+                    <!-- SVG Blobs -->
+                    
+                    <svg class="blob-bg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Main animated blob -->
+                        <path fill="url(#blobGradient)">
+                            <animate attributeName="d" dur="8s" repeatCount="indefinite"
+                                values="
+                                M437.5,306Q418,362,370.5,398Q323,434,266,431Q209,428,163,391Q117,354,106,297Q95,240,118,183.5Q141,127,193,101Q245,75,302,86Q359,97,398,134Q437,171,449,235.5Q461,300,437.5,306Z;
+
+                                M455,312Q426,370,374,404Q322,438,260,436Q198,434,153,392Q108,350,100,295Q92,240,123,185Q154,130,207,105Q260,80,319,90Q378,100,416,142Q454,184,462,242Q470,300,455,312Z;
+
+                                M442,311Q416,362,368,392Q320,422,263.5,427Q207,432,159,393Q111,354,105,297Q99,240,124.5,189Q150,138,197.5,115Q245,92,301,96Q357,100,399,135Q441,170,450.5,235Q460,300,442,311Z;
+
+                                M437.5,306Q418,362,370.5,398Q323,434,266,431Q209,428,163,391Q117,354,106,297Q95,240,118,183.5Q141,127,193,101Q245,75,302,86Q359,97,398,134Q437,171,449,235.5Q461,300,437.5,306Z
+                                " />
+                        </path>
+
+                        <!-- Small animated blobs -->
+                        <circle cx="100" cy="200" r="20" fill="rgba(255,255,255,0.15)">
+                            <animate attributeName="cy" values="200;180;200" dur="4s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="500" cy="400" r="15" fill="rgba(255,255,255,0.15)">
+                            <animate attributeName="cy" values="400;380;400" dur="5s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="300" cy="100" r="10" fill="rgba(255,255,255,0.15)">
+                            <animate attributeName="cy" values="100;120;100" dur="3.5s" repeatCount="indefinite"/>
+                        </circle>
+
+                        <!-- Gradient fill -->
+                        <defs>
+                            <linearGradient id="blobGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#00d2ff" />
+                                <stop offset="100%" stop-color="#3a47d5" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+
+                    <div class="vertical-name">BISWAJIT <span>ROUT</span></div>
+
+                    <!-- full-length portrait -->
+                    <img src="assets/my2.png" alt="Biswajit Rout" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        As a 4th-year student and dedicated backend developer, I thrive on solving complex problems by building efficient and scalable server-side solutions. My passion for robust systems drives me to create optimized APIs, real-time applications, and automated tools that streamline development workflows. Through my internship at Prodigy InfoTech, I developed encryption tools and network analysis solutions, sharpening my ability to tackle technical challenges.
+                    </p>
+                    <p class="about-description">
+                        My growing expertise in backend technologies is complemented by hands-on cybersecurity experience, including risk assessments and secure coding practices from a virtual internship with Goldman Sachs. I enjoy optimizing system performance and scalability while ensuring applications are secure against threats. I’m eager to apply my problem-solving skills and technical knowledge to impactful projects as I continue to grow as a developer.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>9+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4+</h3>
+                            <p>Technologies Mastered</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Learning</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-placeholder">
+                        <div class="code-block">
+                            <div class="code-line"></div>
+                            <div class="code-line short"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line medium"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line short"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">CHAT APP</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Chat Application</h3>
+                        <p class="project-description">
+                            Developed a real-time chat application using MERN Stack with seamless messaging capabilities, 
+                            optimized for simplicity and performance using WebSocket technology.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.IO</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Code</a>
+                            <a href="#" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">SNIFFSEC</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SniffSec Network Security Tool</h3>
+                        <p class="project-description">
+                            Built a CLI-based tool for network sniffing and monitoring, designed to detect DNS and ARP spoofing with efficient packet analysis and reporting.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scapy</span>
+                            <span class="tech-tag">Bash</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rout369/sniffsec" class="project-link">View Code</a>
+                            <a href="https://github.com/rout369/sniffsec" class="project-link">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">DNS</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DNS Firewall</h3>
+                        <p class="project-description">
+                            Created a real-time DNS monitoring system with AI-driven threat detection, featuring a live dashboard and data analytics for identifying suspicious domains.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Code</a>
+                            <a href="#" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">CLI</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MERN Stack CLI Tool</h3>
+                        <p class="project-description">
+                            Developed an npm CLI tool to automate MERN and standalone stack setup with a single command, generating flexible boilerplates for developers.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">npm</span>
+                            <span class="tech-tag">Bash</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rout369/mern_package" class="project-link">View Code</a>
+                            <a href="https://github.com/rout369/mern_package" class="project-link">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-content container">
+        <div class="skills-category">
+            <h3 class="category-title">Languages</h3>
+            <div class="tech-icons">
+                <div class="tech-icon">
+                    <i class="icon devicon-python-plain"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-c-plain"></i>
+                    <span>C</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-cplusplus-plain"></i>
+                    <span>C++</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-javascript-plain"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-bash-plain"></i>
+                    <span>Bash (Intermediate)</span>
+                </div>
+            </div>
+        </div>
+        <div class="skills-category">
+            <h3 class="category-title">Technologies</h3>
+            <div class="tech-icons">
+                <div class="tech-icon">
+                    <i class="icon devicon-react-original"></i>
+                    <span>React.js</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-html5-plain"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-css3-plain"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-tailwindcss-plain"></i>
+                    <span>Tailwind CSS (Basic)</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-nodejs-plain"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-express-original"></i>
+                    <span>Express.js</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-mongodb-plain"></i>
+                    <span>MongoDB</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-codepen-plain"></i>
+                    <span>RESTful APIs</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-webflow-original"></i>
+                    <span>WebSockets</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-postman-plain"></i>
+                    <span>Postman</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-vscode-plain"></i>
+                    <span>VS Code</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-git-plain"></i>
+                    <span>Git</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-github-original"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-docker-plain"></i>
+                    <span>Docker</span>
+                </div>
+            </div>
+        </div>
+        <div class="skills-category">
+            <h3 class="category-title">Other</h3>
+            <div class="tech-icons">
+                <div class="tech-icon">
+                    <i class="icon devicon-linux-plain"></i>
+                    <span>Kali Linux</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-windows8-original"></i>
+                    <span>Windows</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-codeigniter-plain"></i>
+                    <span>Authentication (JWT)</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-codepen-plain"></i>
+                    <span>Data Structures & Algorithms</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-linux-plain"></i>
+                    <span>Operating Systems</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-postgresql-plain"></i>
+                    <span>DBMS</span>
+                </div>
+                <div class="tech-icon">
+                    <i class="icon devicon-trello-plain"></i>
+                    <span>Computer Networks</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-preview">
+                    <div class="resume-placeholder">
+                        <div class="resume-header">
+                            <h3>Biswajit Rout</h3>
+                            <p>Backend Developer & Cybersecurity Enthusiast</p>
+                        </div>
+                        <div class="resume-sections">
+                            <div class="resume-section">Education</div>
+                            <div class="resume-section">Experience</div>
+                            <div class="resume-section">Skills</div>
+                            <div class="resume-section">Projects</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-details">
+                    <h3>Download My Resume</h3>
+                    <p>Get a comprehensive overview of my experience, education, and technical skills.</p>
+                    <div class="resume-buttons">
+                        <a href="assets/res.pdf" class="btn btn-primary" id="download-pdf">Download PDF</a>
+                        <a href="https://drive.google.com/file/d/1tcJi_cel_btUrTQ-i6_ObyW7q93IrtP_/view?usp=drive_link" class="btn btn-secondary" id="view-online">View Online</a>
+                    </div>
+                    <div class="resume-info">
+                        <div class="info-item">
+                            <strong>Last Updated:</strong>
+                            <span>August 2025</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Format:</strong>
+                            <span>PDF (A4)</span>
+                        </div>
+                        <div class="info-item">
+                            <strong>Size:</strong>
+                            <span>~60KB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Write-ups Section -->
+    <section id="writeups" class="writeups section">
+        <div class="container">
+            <h2 class="section-title">Technical Write-ups</h2>
+            <div class="writeups-grid">
+                <article class="writeup-card">
+                    <div class="writeup-meta">
+                        <span class="writeup-date">Dec 15, 2024</span>
+                        <span class="writeup-category">Security</span>
+                    </div>
+                    <h3 class="writeup-title">Understanding SQL Injection Vulnerabilities</h3>
+                    <p class="writeup-excerpt">
+                        A comprehensive guide to identifying, exploiting, and preventing SQL injection 
+                        attacks in web applications, with practical examples and mitigation strategies.
+                    </p>
+                    <a href="#" class="writeup-link">Read More</a>
+                </article>
+
+                <article class="writeup-card">
+                    <div class="writeup-meta">
+                        <span class="writeup-date">Dec 8, 2024</span>
+                        <span class="writeup-category">Backend</span>
+                    </div>
+                    <h3 class="writeup-title">Building Scalable APIs with Node.js</h3>
+                    <p class="writeup-excerpt">
+                        Best practices for designing and implementing scalable REST APIs, covering 
+                        caching strategies, database optimization, and performance monitoring.
+                    </p>
+                    <a href="#" class="writeup-link">Read More</a>
+                </article>
+
+                <article class="writeup-card">
+                    <div class="writeup-meta">
+                        <span class="writeup-date">Nov 28, 2024</span>
+                        <span class="writeup-category">DevOps</span>
+                    </div>
+                    <h3 class="writeup-title">Docker Security Best Practices</h3>
+                    <p class="writeup-excerpt">
+                        Essential security considerations when containerizing applications, including 
+                        image hardening, secrets management, and runtime security.
+                    </p>
+                    <a href="#" class="writeup-link">Read More</a>
+                </article>
+            </div>
+            <div class="writeups-cta">
+                <a href="https://medium.com/@routbiswajit70681" class="btn btn-secondary">View All Write-ups</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm actively seeking opportunities in backend development and cybersecurity. 
+                        Whether you have a project in mind or want to discuss potential collaborations, 
+                        I'd love to hear from you.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <span>john.doe@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location:</strong>
+                            <span>Available for Remote/Hybrid</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Response Time:</strong>
+                            <span>Within 24 hours</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company/Organization</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="job-opportunity">Job Opportunity</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="consultation">Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Biswajit Rout</h3>
+                    <p>Backend Developer & Cybersecurity Enthusiast</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/biswajit-rout" class="social-link" aria-label="LinkedIn Profile">
+                        <i class="devicon-linkedin-plain social-icon"></i>
+                        </a>
+                        <a href="https://github.com/biswajitrout" class="social-link" aria-label="GitHub Profile">
+                            <i class="devicon-github-original social-icon"></i>
+                        </a>
+                        <a href="https://x.com/biswajitrout" class="social-link" aria-label="X Profile">
+                            <i class="devicon-twitter-original social-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>biswajit.rout@email.com</li>
+                        <li>Available for Remote Work</li>
+                        <li>Open to Opportunities</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Biswajit Rout. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
