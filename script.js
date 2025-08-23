@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Typing effect for hero section
     function typeWriter() {
-        const text = "Backend Developer & Cybersecurity Enthusiast";
+        const text = "Frontend Developer & Cybersecurity Enthusiast";
         const element = document.querySelector('.hero-subtitle');
         if (!element) return;
         
